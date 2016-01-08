@@ -9,6 +9,7 @@ library(ggplot2)
 library(ggthemes)
 library(ggtheme)
 library(rcpal)
+library(svglite)
 
 # modelling
 library(ExtDist) # scaled beta distribution

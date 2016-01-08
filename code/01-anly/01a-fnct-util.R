@@ -63,3 +63,26 @@ GenerateYScale <- function (y_data, y_break_mid, sparse = TRUE) {
   )
 
 }
+
+# Generate Useful Scale Breaks and Labels
+GenerateScale <- function (breaks, sparse = TRUE) {
+
+  breaks_format <- format(breaks,
+                          scientific = FALSE,
+                          drop0trailing = TRUE)
+
+  if (sparse == TRUE) {
+    breaks_format  <- ifelse(grepl(breaks_format, pattern = "[15]$"),
+                             breaks_format,
+                             "")
+  }
+
+  breaks_format <- ifelse(grepl("^0.", breaks_format),
+                          substring(breaks_format, 2),
+                          breaks_format)
+
+  return(
+    data.frame(breaks = breaks, labels = breaks_format)
+  )
+
+}
