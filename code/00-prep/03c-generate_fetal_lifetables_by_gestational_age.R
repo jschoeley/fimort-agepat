@@ -4,11 +4,17 @@
 # and deaths from the microdata in order to construct a lifetable
 
 # fetal survival, gestation at death
-with(filter(us_fideath, type == "fetal"),
-     Surv(time  = gestation_at_death_or_cens_w,
-          event = death,
-          type  = "right")
-) -> us_fdeath_gest_surv
+# with(filter(us_fideath, type == "fetal"), # THIS IS WRONG! The infant deaths also
+#                                           # have to be in the exposure group
+#                                           # otherwise I'm sampling on the
+#                                           # outcome variable. Also the moment
+#                                           # birth occours the observation has to
+#                                           # be censored because infant death is
+#                                           # not possible anymore.
+#      Surv(time  = gestation_at_death_or_cens_w,
+#           event = death,
+#           type  = "right")
+# ) -> us_fdeath_gest_surv
 
 # Estimate Kaplan Meier Survival Fetal ------------------------------------
 

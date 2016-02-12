@@ -6,7 +6,7 @@ library(dplyr)
 # plotting
 library(grid)
 library(ggplot2)
-library(ggthemes)
+library(scales)
 library(ggtheme)
 library(rcpal)
 library(svglite)

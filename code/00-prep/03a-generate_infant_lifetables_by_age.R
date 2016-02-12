@@ -25,7 +25,7 @@ save(us_ideath_age_survfit_doc,
 
 # by date of conception and gestational age at delivery
 us_ideath_age_survfit_doc_gestdel <-
-  survfit(us_ideath_age_surv ~ date_of_conception_y + gestation_at_delivery__group,
+  survfit(us_ideath_age_surv ~ date_of_conception_y + gestation_at_delivery_group,
           data = filter(us_fideath, type == "infant"))
 
 # save survival object for US infant by date of conception

@@ -1,0 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.36pt}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{\bf onto|gen\IeC {\textbrokenbar }ecence\sf , noun}{2}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Ontogenescence as Acquired Robustness}{3}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Ontogenescence as Transitional Timing}{4}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Ontogenescence as a Selection Process}{5}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{The Gestational Age Pattern of Human Mortality}{6}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Modelling the Pattern}{8}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{References}{12}{0}{7}

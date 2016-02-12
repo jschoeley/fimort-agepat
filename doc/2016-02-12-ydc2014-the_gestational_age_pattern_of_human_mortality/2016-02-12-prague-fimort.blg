@@ -1,0 +1,15 @@
+[0] Config.pm:325> INFO - This is Biber 2.1
+[0] Config.pm:328> INFO - Logfile is '2016-02-12-prague-fimort.blg'
+[27] biber:276> INFO - === Fri Feb 12, 2016, 01:44:55
+[27] Biber.pm:334> INFO - Reading '2016-02-12-prague-fimort.bcf'
+[96] Biber.pm:646> INFO - Found 5 citekeys in bib section 0
+[110] Biber.pm:2978> INFO - Processing section 0
+[128] Biber.pm:3116> INFO - Looking for bibtex format file '/home/jon/lucile/share/jowncloud/sci/refs/refs.bib' for section 0
+[148] bibtex.pm:1010> INFO - Decoding LaTeX character macros into UTF-8
+[170] bibtex.pm:884> INFO - Found BibTeX data source '/home/jon/lucile/share/jowncloud/sci/refs/refs.bib'
+[237] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[237] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[238] Biber.pm:2855> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[238] Biber.pm:2859> INFO - No sort tailoring available for locale 'en-US'
+[244] bbl.pm:505> INFO - Writing '2016-02-12-prague-fimort.bbl' with encoding 'UTF-8'
+[244] bbl.pm:596> INFO - Output to 2016-02-12-prague-fimort.bbl

@@ -1,5 +1,6 @@
 # Input -------------------------------------------------------------------
 
+# load microdata on births, infant, and fetal deaths
 load("./priv/data/us_birth_ideath_1989-2010.Rdata")
 load("./priv/data/us_fdeath_1982-2013.Rdata")
 
@@ -12,6 +13,7 @@ rm(us_ideath, us_fdeath)
 
 # Construct Variables -----------------------------------------------------
 
+# contruct survival analysis variables for microdata
 us_fideath %>%
   filter(
     # don't include years where no cohort births / infant deaths are given
