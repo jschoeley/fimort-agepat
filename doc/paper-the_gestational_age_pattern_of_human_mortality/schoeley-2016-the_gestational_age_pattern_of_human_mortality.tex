@@ -4,7 +4,7 @@
 
 \usepackage{jonas}
 
-\bibliography{/home/jon/lucile/share/jowncloud/sci/refs/refs.bib}
+\bibliography{/home/jon/lucile/share/Dropbox/sci/refs/refs.bib}
 \hyphenation{}
 
 %%%% Meta data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,10 +21,12 @@
 \title{The Gestational Age Pattern of Human Mortality}
 \author{
   Jonas Schöley\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark. Correspondence: \texttt{jschoeley@health.sdu.dk}.}
-  % \and
-  % James W.~Vaupel\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark. Max Planck Institute for Demographic Research, Rostock, Germany.}
-  % \and
-  % Rune Lindahl-Jacobsen\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark.}
+  \and
+  James W.~Vaupel\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark. Max Planck Institute for Demographic Research, Rostock, Germany.}
+  \and
+  Rune Lindahl-Jacobsen\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark.}
+  \and
+  James Oeppen\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark.}
 }
 
 %%%% Titlepage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -270,9 +272,17 @@ Substituting (\ref{eq:beta}) and (\ref{eq:gammagompertz}) in (\ref{eq:themodel})
 \begin{equation}
   \overline{\mu}(x) =
   \frac {\alpha_1 e^{-\lambda x}} {\frac{\gamma \alpha_1} {-\lambda} (e^{-\lambda x} - 1) + 1} +
-  \frac{\alpha_2 x^{s_1-1} (24-x)^{s_2-1}} {B(s_1,s_2) \cdot 24^{s_1+s_2-1}}
+  \frac{\alpha_2 x^{s_1-1} (24-x)^{s_2-1}} {B(s_1,s_2) \cdot 24^{s_1+s_2-1}}.
   \label{eq:thelaw}
 \end{equation}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width = \textwidth]{./fig/the_model.pdf}
+  \caption{A model of mortality by gestational age for the developing human organism.}
+  \label{fig:the_model}
+\end{figure}
+
 
 \section{Results} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{sec:results}
