@@ -1,0 +1,223 @@
+---
+codebook:
+    date    : 2016-08-15
+    author  : Jonas Schöley
+    contact : jschoeley@health.sdu.dk
+collection:
+    name        : Fetal Death Public Use File
+    source      : Department of Health and Human Services, Centers for Disease Control and Prevention, National Center for Health Statistics, Division of Vital Statistics
+    date        : 2015
+    author      : National Center for Health Statistics
+    description : Fetal death refers to the spontaneous intrauterine death of a fetus at any time during pregnancy. Fetal deaths later in pregnancy (at 20 weeks of gestation or more, or 28 weeks or more, for example) are also sometimes referred to as stillbirths. In the United States, State laws require the reporting of fetal deaths, and Federal law mandates national collection and publication of fetal death data. Most states report fetal deaths of 20 weeks of gestation or more and/or 350 grams birthweight. However, a few states report fetal deaths for all periods of gestation. Fetal death data is published annually by the National Center for Health Statistics, in reports and as individual-record data files.
+    location    : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/
+dictionary:
+    sex89: &sex89
+        '1': Male
+        '2': Female
+        '9': Unknown
+    sex03: &sex03
+        'M': Male
+        'F': Female
+        'U': Unknown
+files:
+    VS89FETL.DETUSPUB:
+        description : 1989 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1989US.zip
+        filename    : VS89FETL.DETUSPUB
+        variables: &var_89
+            date_of_delivery_y:
+                label          : Year of Delivery
+                start          : 190
+                end            : 193
+                type           : integer
+                format         :
+                scale          : date
+                categories     :
+            date_of_delivery_m:
+                label          : Month of Delivery
+                start          : 186
+                end            : 187
+                type           : integer
+                format         :
+                scale          : date
+                categories     :
+            sex:
+                label          : Sex of Fetus
+                start          : 203
+                end            : 203
+                type           : factor
+                format         :
+                scale          : nominal
+                categories     : *sex89
+                missing_values : 9
+            gestation_at_delivery_w:
+                label          : Gestation at Delivery in Weeks
+                start          : 197
+                end            : 198
+                type           : integer
+                format         :
+                scale          : metric
+                categories     :
+                missing_values : 99
+    VS90FETL.DETUSPUB:
+        description : 1990 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1990US.zip
+        filename    : VS90FETL.DETUSPUB
+        variables: *var_89
+    VS91FETL.DETUSPUB:
+        description : 1991 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1991US.zip
+        filename    : VS91FETL.DETUSPUB
+        variables: *var_89
+    VS92FETL.DETUSPUB:
+        description : 1992 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1992US.zip
+        filename    : VS92FETL.DETUSPUB
+        variables: *var_89
+    VS93FETL.DETUSPUB:
+        description : 1993 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1993US.zip
+        filename    : VS93FETL.DETUSPUB
+        variables: *var_89
+    VS94FETL.DETUSPUB:
+        description : 1994 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1994US.zip
+        filename    : VS94FETL.DETUSPUB
+        variables: *var_89
+    VS95FETL.DETUSPUB:
+        description : 1995 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1995US.zip
+        filename    : VS95FETL.DETUSPUB
+        variables: *var_89
+    VS96FETL.DETUSPUB:
+        description : 1996 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1996US.zip
+        filename    : VS96FETL.DETUSPUB
+        variables: *var_89
+    VS97FETL.DETUSPUB:
+        description : 1997 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1997US.zip
+        filename    : VS97FETL.DETUSPUB
+        variables: *var_89
+    VS98FETL.DETUSPUB:
+        description : 1998 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1998US.zip
+        filename    : VS98FETL.DETUSPUB
+        variables: *var_89
+    VS99FETL.DETUSPUB:
+        description : 1999 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal1999US.zip
+        filename    : VS99FETL.DETUSPUB
+        variables: *var_89
+    VS00FETL.DETUSPUB:
+        description : 2000 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2000US.zip
+        filename    : VS00FETL.DETUSPUB
+        variables: *var_89
+    VS01FETL.DETUSPUB:
+        description : 2001 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2001US.zip
+        filename    : VS01FETL.DETUSPUB
+        variables: *var_89
+    VS02FETL.DETUSPUB:
+        description : 2002 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2002US.zip
+        filename    : VS02FETL.DETUSPUB
+        variables: *var_89
+    VS03FETL.DETUSPUB:
+        description : 2003 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2003US.zip
+        filename    : VS03FETL.DETUSPUB
+        variables: &var_03
+            date_of_delivery_y:
+                label          : Year of Delivery
+                start          : 15
+                end            : 18
+                type           : integer
+                format         :
+                scale          : date
+                categories     :
+            date_of_delivery_m:
+                label          : Month of Delivery
+                start          : 19
+                end            : 20
+                type           : integer
+                format         :
+                scale          : date
+                categories     :
+            sex:
+                label          : Sex of Fetus
+                start          : 436
+                end            : 436
+                type           : factor
+                format         :
+                scale          : nominal
+                categories     : *sex03
+                missing_values : U
+            gestation_at_delivery_w:
+                label          : Gestation at Delivery in Weeks
+                start          : 451
+                end            : 452
+                type           : integer
+                format         :
+                scale          : metric
+                categories     :
+                missing_values : 99
+    VS04FETL.DETUSPUB:
+        description : 2004 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2004US.zip
+        filename    : VS04FETL.DETUSPUB
+        variables: *var_03
+    vs05fetl.publicUS:
+        description : 2005 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2005US.zip
+        filename    : vs05fetl.publicUS
+        variables: *var_03
+    vs06fetal.DETUSPUB:
+        description : 2006 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2006US.zip
+        filename    : vs06fetal.DETUSPUB
+        variables: *var_03
+    VS07Fetal.PublicUS:
+        description : 2007 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2007US.zip
+        filename    : VS07Fetal.PublicUS
+        variables: *var_03
+    Fetal2008US.txt:
+        description : 2008 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2008US.zip
+        filename    : Fetal2008US.txt
+        variables: *var_03
+    VS09Fetal.Detailuspub.txt:
+        description : 2009 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2009US.zip
+        filename    : VS09Fetal.Detailuspub.txt
+        variables: *var_03
+    VS10Fetalupdated.Detailuspub.Detailuspub:
+        description : 2010 US Fetal Deaths Public Use File
+        format      : Fixed Width ASCII Text
+        url         : ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/fetaldeathus/Fetal2010US.zip
+        filename    : VS10Fetalupdated.Detailuspub.Detailuspub
+        variables: *var_03
+...

@@ -20,13 +20,13 @@
 
 \title{The Gestational Age Pattern of Human Mortality}
 \author{
-  Jonas Schöley\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark. Correspondence: \texttt{jschoeley@health.sdu.dk}.}
+  Jonas Schöley\thanks{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark.}
   \and
-  James W.~Vaupel\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark. Max Planck Institute for Demographic Research, Rostock, Germany.}
+  James W.~Vaupel\thanks{Max Planck Institute for Demographic Research, Rostock, Germany.}~\footnotemark[1]
   \and
-  Rune Lindahl-Jacobsen\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark.}
+  Rune Lindahl-Jacobsen\footnotemark[1]
   \and
-  James Oeppen\footnote{Max-Planck Odense Center on the Biodemography of Aging, University of Southern Denmark.}
+  James Oeppen\footnotemark[1]
 }
 
 %%%% Titlepage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -38,7 +38,23 @@
 \thispagestyle{empty}
 
 \begin{abstract}
-\textsc{Abstract.} In this study causes for \enquote{ontogenescense} -- the phenomenon of a declining force of mortality prior to maturity -- are analysed using data on human mortality by gestational age. Microdata on 4,018,830 births, fetal- and infant deaths in the United States of America in 2009 is used to calculate a joint fetal-infant life table by gestational age week 23 until week 100 after the last menstrual period of the mother. The joint life table has a remarkable regularity in the gestational age profile of fetal- and infant mortality: Mortality rates are declining over the whole observed age range with the exception of a \enquote{birth hump} peaking at week 38. The absolute rate of decline decreases over age. This observed gestational age pattern of the force of mortality is consistent with three hypotheses concerning the causes for ontogenescense: 1) Acquired robustness: as the organism growths it becomes more resilient towards death, 2) transitional timing: the transition of birth is a stressful event and momentarily increases the force of mortality, 3) mortality selection: The frailest individuals die first, resulting in the mean force of mortality to decline with age. In order to quantify the relative importance of these three processes a three component mortality model is fitted against the observed force of mortality. The model fits the data with high accuracy, suggesting that the phenomenon of ontogenescense in humans is fully explained by the three hypotheses or factors associated with these.
+\textsc{Background}
+\enquote{Ontogenescense} is the phenomenon of a declining force of mortality from conception until maturity observed in many species. While hypotheses have been formulated as to the evolutionary, developmental, and demographic drivers of this pattern the exact shape has yet to be estimated for humans.
+
+\textsc{Objective}
+We wish to describe and model the force of mortality for the developing human organism across ages of gestation spanning the pre-, peri- and post-natal periods.
+
+\textsc{Methods}
+Using microdata on all registered births, fetal- and infant deaths in the United States of America over three decades we calculate joint fetal-infant single decrement lifetables describing the survival of a conception cohort from week 23 until week 100 after the last menstrual period of the mother. We fit the observed mortality trajectory with an augmented Gamma-Gompertz model.
+
+\textsc{Results}
+Human mortality across pre-, peri-, and post-natal gestational ages is remarkebly regular. Starting at their highest level the subsequent -- mostly log-linear -- mortality decline is only interrupted by a \enquote{birth hump} peaking around weeks 37 to 40. This pattern is visible in males and females and for all available conception cohorts between 1989 and 2009. While gestational age specific mortality is generally lower for the younger cohorts the majority of the improvements are seen prior to week 50. A Gamma-Gompertz model with an added scaled-beta distribution captures the gestational age pattern while separating individual level heterogeneity, exponential decline and the risky transition of birth.
+
+\textsc{Conclusions}
+The observed gestational age pattern of the force of mortality is consistent with three hypotheses concerning the causes of ontogenescense: 1) Acquired robustness: as the organism growths it becomes more resilient towards death, 2) transitional timing: the transition of birth is a stressful event and momentarily increases the force of mortality, 3) mortality selection: The frailest individuals die first, resulting in the mean force of mortality to decline with age.
+
+\textsc{Contribution}
+We describe and model the changing risk of death across gestational age for an evolving cohort passing the fetal stage, birth and infancy.
 \end{abstract}
 
 \clearpage
@@ -79,6 +95,13 @@ The questions is: Which of these hypotheses is supported by observations on pres
 The vital statistics of the US (births, deaths) are designated for public use. The data is extensive and thus allows for the detailed statistical analysis employed in this study. The analysis is based on individual births (N = 4,001,522), infant deaths (N = 18,923) and fetal deaths (N = 17,308) in the conception cohort 2009.\footnote{The data is derived from the \enquote{US Birth Cohort Linked Birth - Infant Death Data Files} and the \enquote{Fetal Death Data Files} for the years 2009 and 2010 (\cite{DVS2015})} The fetal death file does \emph{not} include cases of induced abortions limiting the data analysis to \emph{natural} causes of death for the pre-natal period. Using the Kaplan-Meier estimator life table survival functions are estimated. Two separate life tables are produced: 1) \emph{Infant mortality by day of age} from birth until 365 days after birth, and 2) \emph{joint fetal- and infant mortality by week of gestation} from week 23 to week 100 of gestation.
 
 % Justifying the use of a joint fetal-infant life table
+% Fetus at risk concept: Yudkin (1987). Risk of unexplained stillbirth at different gestational ages. 
+% Merging Fetal and infant deaths in single decrement model: Platt etal. (2004). A Proportional Hazards Model with Time-dependent Covariates and Time-varying Effects for Analysis of Fetal and Infant Death
+% Treating Fetal and infant death jointly in mutliple decrement lifetable: Bakketeig etal. (1978). A Fetal-Infant Lifetable Based on Single Births in Norway, 1967-1973
+% Gestational age fetal mortality regression model: Carlson etal. (1999): Trajectories of fetal loss in the czech republic.
+% Merging fetal and infant deaths in single decrement lifetable: Kristensen etal. (1992): Life table analysis of infant mortality and feto infant mortality.
+% Multi-decrement fetal-infant lifetable: Mellin etal (1962). Fetal Life Tables.
+
 The reasons for joining fetal- and infant mortality are manifold: The gestational age pattern of mortality for joint fetal- and infant deaths are very regular which lend them to statistical analysis. Furthermore, the theory on ontogenescense is not limited to the time after birth. In fact \textcite{Levitis2011} shows a rough estimate of daily human mortality rates from conception until the $12^{th}$ birthday in the context of discussing \enquote{the evolutionary demography of ontogenesis}. Therefore using only half of the available data (either on infant- or on fetal- deaths) would be an arbitrary limitation. Using gestational age instead of demographic age also has the advantage of making a major source of unobserved heterogeneity in early life mortality observable: The different gestational ages at birth.
 
 % Analysis
@@ -143,6 +166,17 @@ Overall, the data is consistent with what we see in infant mortality and the \em
   \includegraphics[width = \textwidth]{./fig/us_fimort_2009_mx.pdf}
   \caption{The gestational age pattern of human mortality for US fetus and infants conceived in 2009. Individual level data source: \cite{DVS2015}.}
   \label{fig:us_fimort_2009_mx}
+\end{figure}
+
+% The gestational age patter across cohorts
+
+Mortality has been reduced across the whole range of gestational ages under observation with the largest improvements being recorded prior to the birth hump, right at the hump and shortly thereafter. Reductions prior to week 50 cluster around 10 averted deaths per 10,000 person weeks at risk with a notable peak around week 40. This peak however is not due a reduction in the \enquote{birth hump} but due to a shift to the left of it. This is consistent with findings by \citeauthor{Davidoff2006} who show a trend towards shorter durations of pregnancy for U.S. singleton births between 1992 and 2002. The timing of the added mortality risk of the birth transition is determined of the timing of birth itself. Absolute improvements in later gestational ages are limited due to the already very low level of mortality for the conception cohort 1989. While the mortality levels delcine across cohorts the general pattern of an exponential decrease compounded by a birth hump remains stable.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width = \textwidth]{./fig/us_fimort_obsmx_1989_2009.pdf}
+  \caption{The gestational age pattern of human mortality for US fetus and infants of conception cohorts 1989 to 2009. Individual level data source: \cite{DVS2015}.}
+  \label{fig:us_fimort_1989_2009_mx}
 \end{figure}
 
 \section{A Model of Gestational Age Mortality} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -320,7 +354,18 @@ While physicians and epidemiologists naturally separate fetal- from infant morta
 %\renewcommand\thefigure{\thesection.\arabic{figure}}
 %\setcounter{figure}{0}
 
-%\begin{appendix}
-%\end{appendix}
+\begin{appendix}
+
+\section{Data preparation}
+
+We use publicly available microdata on fetal deaths, live births and infant deaths in the United States provided by the National Center for Health Statistics (\cite{DVS2015}). The \enquote{birth cohort linked birth-infant death data files} contain information on all children born 1983--91 and 1995--2010 in the United States and -- as a subset of this population -- all infant deaths (deaths occurring prior to the first birthday of a child) related to these birth cohorts and occurring in the United States. Birth- and death certificates are the basis for the information given in the data set. No data was published for the years 1992--1994 (\cite{Weed1995}). The \enquote{fetal death data files} cover fetal deaths occurring 1982-2013 within the United States. In accordance with the WHO definition on fetal death induced abortions are \emph{not} part of the data (\cite{Kowaleski1997}).
+
+Birth cohorts 1982--1989 are omitted from the analysis as they lack data on the exact day of death for infants dying past 27 days of age. In order to analyse fetal and infant deaths over equal time ranges we omit periods of fetal deaths without corresponding birth cohort information (years 1982--1988, 1992--1994 and 2011--2013). Also discarded are subjects with a gestational age at delivery of less than 23 weeks as it is likely that fetal deaths prior to 23 weeks of gestation are substantially under-reported.
+
+For both the infant lifetables and the joint-fetal-infant lifetables we base the initial population at risk on the \emph{conception cohort}, the population of individuals conceived during a single year. It is calculated as the date of delivery minus the week of gestation at delivery. For the infant lifetable the initial population at risk is the number of individuals conceived in year $y$ and surviving until birth, whereas for the joint-fetal-infant lifetables it is everyone conceived in year $y$ and surviving until 23 weeks of gestation. We calculate the year of conception for every subject in the \enquote{birth cohort linked birth-infant death data files} and the \enquote{fetal death data files} and then discard those conception cohorts for which no complete data is available, e.g.~a child conceived in year $y$ can be delivered in year $y$ or $y+1$. If only data on births and fetal deaths in year $y$ are available then the number of children conceived in year $y$ (and surviving until week 23 of gestation or birth) will be incomplete. After subsetting the data we consider conception cohorts 1989--1990 and 1995--2009.
+
+The analyses in this paper are based on lifetables derived from the individual level data using the \emph{Kaplan-Meier estimator}. In order to do so the timescale and times of event and censoring have to be defined. For the infant death lifetables we use time since birth in days as timescale and death by any cause as the event. Censoring takes place after survival of infancy, that is at an age of 366 days. The timescale for the joint fetal-infant lifetable is the gestational age in weeks with a fetal- or infant death as the event. Observations are censored a year (52 weeks) after the gestational age at birth. Mortality rates $m(x)$ are derived from the Kaplan-Meier estimate of the survival curve $l(x)$ by calculating $-\log l(x)$.
+
+\end{appendix}
 
 \end{document}

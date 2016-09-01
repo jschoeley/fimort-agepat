@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="212.70747mm"
+   height="71.154747mm"
+   viewBox="0 0 753.6879 252.12312"
+   id="svg6141"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="model_eq.svg">
+  <defs
+     id="defs6143" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="362.74122"
+     inkscape:cy="77.863076"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="958"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata6146">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(30.598358,-358.10217)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="49.874268"
+       y="494.758"
+       id="text6689"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6691"
+         x="49.874268"
+         y="494.758"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Italic'">µ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6723">(</tspan>x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6725">) =</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6693"> E[</tspan>f<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan6699">Z</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6715">(</tspan>z<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6713">|</tspan>x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6717">)</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6697">] × </tspan>α<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan6701">1</tspan>e<tspan
+   style="font-size:64.99999762%;baseline-shift:super"
+   id="tspan6705">-λx </tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6707">+</tspan> α<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan6709">2</tspan>f<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan6711">T</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6719">(</tspan>t<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
+   id="tspan6721">)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="78.791901"
+       y="531.26562"
+       id="text6729"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan6731"
+         x="78.791901"
+         y="531.26562"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">Population hazard</tspan><tspan
+         sodipodi:role="line"
+         x="78.791901"
+         y="562.51562"
+         id="tspan6733"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">at gest. age <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Italic'"
+   id="tspan6763">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="254.55846"
+       y="409.55997"
+       id="text6735"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="254.55846"
+         y="409.55997"
+         id="tspan6739"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">Average population</tspan><tspan
+         sodipodi:role="line"
+         x="254.55846"
+         y="440.80997"
+         id="tspan6741"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">frailty at gest. age <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Italic'"
+   id="tspan6771">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="432.34531"
+       y="541.22504"
+       id="text6743"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan6745"
+         x="432.34531"
+         y="541.22504"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">Acquired robustness</tspan><tspan
+         sodipodi:role="line"
+         x="432.34531"
+         y="572.47504"
+         id="tspan6747"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">component of hazard</tspan><tspan
+         sodipodi:role="line"
+         x="432.34531"
+         y="603.72504"
+         id="tspan6749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">at gest. age <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Italic'"
+   id="tspan6777">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:100%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="593.96967"
+       y="381.53967"
+       id="text6751"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="593.96967"
+         y="381.53967"
+         id="tspan6757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '">Birth trauma</tspan><tspan
+         sodipodi:role="line"
+         x="593.96967"
+         y="412.78967"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '"
+         id="tspan6796">component of hazard</tspan><tspan
+         sodipodi:role="line"
+         x="593.96967"
+         y="444.03967"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.25px;line-height:100%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '"
+         id="tspan6801">at gest. age <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Italic'"
+   id="tspan6775">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:45px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="268.70059"
+       y="296.7681"
+       id="text6759"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6761"
+         x="268.70059"
+         y="296.7681"></tspan></text>
+  </g>
+</svg>
